@@ -2,7 +2,7 @@
     margin-top: 75px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #000000;
+    color: black;
     &__title--h2 {
         font-weight: bold;
         font-size: 46px;
@@ -13,10 +13,10 @@
         &--competences {
             padding-top: 50px;
             margin-top: 25px;
-            color: #2D9CDB;
+            color: $color4;
         }
         &--contact {
-            color: #2D9CDB;
+            color: $color4;
         }
     }
 
@@ -28,7 +28,7 @@
         margin-bottom: 15px;
         z-index:1;
         &--competences {
-            color: #2D9CDB;
+            color: $color4;
         }
     }
     &__title--h4 {
@@ -46,7 +46,7 @@
         margin-bottom: 30px;
     }
     &--bg {
-        background-color: rgba(54, 54, 54, 1);
+        background-color: $color1;
     }
     &__img {
         display: block;
@@ -106,7 +106,7 @@
         &--compet {
             margin-top: 10px;
             margin-bottom: 40px;
-            color: #2D9CDB;
+            color:$color4;
         }
     }
 }

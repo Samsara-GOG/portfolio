@@ -15,7 +15,7 @@ ul[class="no-style"] {
     font-size: 14px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
     padding: 10px 20px;
     width: auto;
 
@@ -26,20 +26,20 @@ ul[class="no-style"] {
         color: white;    
         border: none;
         cursor: pointer;
-        box-shadow: 0 9px #23668c;
+        box-shadow: 0 9px $color5;
         outline: none;
 
         &:hover {
             color: white;  
             text-decoration: none; 
             transform: translateY(3px);
-            box-shadow: 0 6px #23668c;
+            box-shadow: 0 6px $color5;
         }
 
         &:active {
             color: white;
             transform: translateY(7px);
-            box-shadow: 0 2px #23668c;
+            box-shadow: 0 2px $color5;
         }
     }
 
@@ -49,7 +49,7 @@ ul[class="no-style"] {
         color: white;    
         border: none;
         cursor: pointer;
-        box-shadow: 0 9px #58852b;
+        box-shadow: 0 9px $color6;
         outline: none;
         margin-top: 30px;
 
@@ -57,13 +57,13 @@ ul[class="no-style"] {
             color: white;  
             text-decoration: none; 
             transform: translateY(3px);
-            box-shadow: 0 6px #58852b;
+            box-shadow: 0 6px $color6;
         }
 
         &:active {
             color: white;
             transform: translateY(7px);
-            box-shadow: 0 2px #58852b;
+            box-shadow: 0 2px $color6;
         }
     }
 
@@ -73,7 +73,7 @@ ul[class="no-style"] {
         color: white;    
         border: none;
         cursor: pointer;
-        box-shadow: 0 9px #3b8573;
+        box-shadow: 0 9px $color7;
         outline: none;
         margin-top: 10px;
         font-size: 16px;
@@ -83,13 +83,13 @@ ul[class="no-style"] {
             color: white;  
             text-decoration: none; 
             transform: translateY(3px);
-            box-shadow: 0 6px #3b8573;
+            box-shadow: 0 6px $color7;
         }
 
         &:active {
             color: white;
             transform: translateY(7px);
-            box-shadow: 0 2px #3b8573;
+            box-shadow: 0 2px $color7;
         }
     }
 }

@@ -1,14 +1,14 @@
 .aside {
     display: inline-block;
     margin-top: 68px;
-    background: #FFFFFF;
+    background: white;
     border: 1px solid $color4;
     border-radius: 0px 0px 10px 10px;
     padding: 0 30px;
     z-index: 1;
     &__project {
         display: inline-block;
-        background: #FFFFFF;
+        background: white;
         border: 1px solid $color4;
         border-radius: 0px 0px 10px 10px;
         padding: 0 20px;
@@ -16,7 +16,7 @@
         max-width: 400px;
         &--1 {
             display: inline-block;
-            background: #FFFFFF;
+            background: white;
             border: 1px solid $color4;
             border-radius: 0px 0px 10px 10px;
             padding: 0 20px;
@@ -29,7 +29,7 @@
         font-style: normal;
         font-size: 16px;
         line-height: 19px;
-        color: #000000;
+        color:black;
         &--bold {
             font-weight: bold;
         }
@@ -49,7 +49,6 @@
     &__link {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         text-decoration-line: underline;
