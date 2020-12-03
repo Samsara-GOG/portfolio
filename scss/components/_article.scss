@@ -1,0 +1,135 @@
+.article {
+    margin-top: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #000000;
+    &__title--h2 {
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2C3E50;
+        &--competences {
+            padding-top: 50px;
+            margin-top: 25px;
+            color: #2D9CDB;
+        }
+        &--contact {
+            color: #2D9CDB;
+        }
+    }
+
+    &__title--h3 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        z-index:1;
+        &--competences {
+            color: #2D9CDB;
+        }
+    }
+    &__title--h4 {
+        margin-top: 0px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+        z-index:1;
+    }
+    &__description {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    &--bg {
+        background-color: rgba(54, 54, 54, 1);
+    }
+    &__img {
+        display: block;
+        max-width: 100%;
+        margin: 50px auto 15px auto;
+        border: 2x solid black;
+    }
+    &__link {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 28px;
+        text-align: left;
+        text-decoration-line: underline;
+        color: $color2;
+    }
+}
+
+.education--top {
+    margin-top: 30px;
+
+}
+
+.experience--top {
+    margin-top: 65px!important;
+}
+
+.block {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #000000;
+    &__compet {
+        position: relative;
+        bottom: 25px;
+    }
+    &--compet {
+        margin-bottom: 20px;
+    }
+    &__date {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: #2C3E50;
+        &--top {
+            margin-top: 35px;
+        }
+    }
+    &__subtitle {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    &__description {
+        font-weight: normal;
+        font-size: 14.5px;
+        line-height: 28px;
+        &--compet {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            color: #2D9CDB;
+        }
+    }
+}
+
+.liserai {
+    position: relative;
+    padding: 0 20px;
+    border-left: 1px solid black;
+}
+
+.compet__space {
+    &--10 {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+.z-index {
+    &__1 {
+        z-index: 1;
+    }
+    &__minus1 {
+        z-index: -1;
+    }
+}
+

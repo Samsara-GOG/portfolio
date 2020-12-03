@@ -1,0 +1,107 @@
+.no-style {
+    list-style-type: none; 
+    padding-left: 0px;
+}
+
+ul[class="no-style"] {
+    list-style-type: none;
+}
+
+.btn-perso {
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    width: auto;
+
+    &__contactme {
+        
+        background-color: $color4;
+        border-radius: 12px;
+        color: white;    
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 9px #23668c;
+        outline: none;
+
+        &:hover {
+            color: white;  
+            text-decoration: none; 
+            transform: translateY(3px);
+            box-shadow: 0 6px #23668c;
+        }
+
+        &:active {
+            color: white;
+            transform: translateY(7px);
+            box-shadow: 0 2px #23668c;
+        }
+    }
+
+    &__cv {
+        background-color: $color3;;
+        border-radius: 12px;
+        color: white;    
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 9px #58852b;
+        outline: none;
+        margin-top: 30px;
+
+        &:hover {
+            color: white;  
+            text-decoration: none; 
+            transform: translateY(3px);
+            box-shadow: 0 6px #58852b;
+        }
+
+        &:active {
+            color: white;
+            transform: translateY(7px);
+            box-shadow: 0 2px #58852b;
+        }
+    }
+
+    &__send {
+        background-color: $color2;
+        border-radius: 12px;
+        color: white;    
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 9px #3b8573;
+        outline: none;
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 50px;
+
+        &:hover {
+            color: white;  
+            text-decoration: none; 
+            transform: translateY(3px);
+            box-shadow: 0 6px #3b8573;
+        }
+
+        &:active {
+            color: white;
+            transform: translateY(7px);
+            box-shadow: 0 2px #3b8573;
+        }
+    }
+}
+
+.fa-paper-plane {
+    color: black;
+    position: relative;
+    right: 7px;
+}
+
+.fa-eye {
+    color: black;
+    position: relative;
+    right: 7px;
+}

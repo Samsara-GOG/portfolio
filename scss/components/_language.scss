@@ -1,0 +1,53 @@
+.lang {
+    display: inline-block;
+    max-width: 50px;
+    padding: 3px 3px;
+
+
+    &__bg {
+        display: inline-block;
+        background-color: white;
+        border: 2px solid $color4;
+        border-radius: 0px 0px 10px 10px;
+        padding: 5px 5px;
+    }
+    &__html {
+        max-width: 52px;
+    }
+    &__css {
+        max-width: 52px;
+    }
+    &__csharp {
+        max-width: 65px;
+    }
+    &__cpp {
+        max-width: 58px;
+    }
+    &__java {
+        max-width: 40px;
+    }
+    &__go {
+        max-width: 75px;
+    }
+    &__lua {
+        max-width: 74px;
+    }
+    &__mariadb {
+        max-width: 60px;
+    }
+    &__mysql {
+        max-width: 105px;
+    }
+    &__nodejs {
+        max-width: 84px;
+    }
+    &__php {
+        max-width: 65px;
+    }
+    &__react {
+        max-width: 55px;
+    }
+    &__sass {
+        max-width: 67px;
+    }
+}

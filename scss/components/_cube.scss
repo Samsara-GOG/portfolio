@@ -1,0 +1,97 @@
+.cube {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: $color1;
+    border-radius: 2px;
+    position: relative;
+    transform: rotate(-45deg);
+    &--white {
+        background: white;
+    }
+
+    &__double {
+        top: 3px;
+        &--space {
+            margin-right: 8px;
+        }
+    }
+    &__educ--begin {
+        bottom: 20px;
+        right: 28px;
+    }
+    &__educ--end {
+        top: 23px;
+        right: 28px;
+    }
+}
+
+.trim-sides {
+    &::before {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 18%;
+        vertical-align: center;
+        margin-right: 10px;
+        border-top: 1px solid $color1;
+    }
+    &::after {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 18%;
+        vertical-align: center;
+        margin-left: 10px;
+        border-top: 1px solid $color1;
+    }
+}
+
+.trim-sides--white {
+    &::before {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 18%;
+        vertical-align: center;
+        margin-right: 10px;
+        border-top: 1px solid white;
+    }
+    &::after {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 18%;
+        vertical-align: center;
+        margin-left: 10px;
+        border-top: 1px solid white;
+    }
+}
+
+.trim-sides--small {
+    margin-right: 22px;
+    &::before {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 12%;
+        vertical-align: center;
+        margin-right: 10px;
+        border-top: 1px solid $color1;
+    }
+    &::after {
+        position: relative;
+        content: "";
+        display: inline-block;
+        height: 5px;
+        width: 12%;
+        vertical-align: center;
+        margin-left: 10px;
+        border-top: 1px solid $color1;
+    }
+}

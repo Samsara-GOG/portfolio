@@ -1,0 +1,28 @@
+.form { 
+    margin-top: 55px;
+
+    &__description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+    &__input {
+        display: inline-block;
+        color: #000000;
+        background-color: #F7F7F7;
+        border: 1px solid #E8E8E8;
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+p[class="label"] {
+    margin-top: 28px;
+    margin-bottom: 0rem;
+}
+
+.red {
+    color: #E40000;
+}

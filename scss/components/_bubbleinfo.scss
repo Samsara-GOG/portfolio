@@ -1,0 +1,53 @@
+a.bubbleinfo {
+	cursor: help;
+	font-weight: normal;
+	position: relative;
+    text-decoration: none;
+    &:hover {
+        cursor: help;
+        background-color: white;
+    }
+}
+
+a.bubbleinfo span {
+	display: none;
+}
+
+/* Fix to keep text in bubbleinfo */
+span.forward {
+	text-indent: 25px;
+}
+
+@media screen and (max-width: 769px) {
+
+    a.bubbleinfo:hover span {
+	background-color: $color1;
+	border-radius: 5px;
+	border: 2px solid $color4;
+	color: $color4;
+	display: block;
+    font-weight: normal;
+    position: absolute;
+	left: -100px;
+	bottom: 55px;
+	padding: 5px;
+	width: 250px;
+	text-align: justify;
+    }
+}
+@media screen and (min-width: 770px) {
+    a.bubbleinfo:hover span {
+        background-color: $color1;
+        border-radius: 5px;
+        border: 2px solid $color4;
+        color: $color4;
+        display: block;
+        font-weight: normal;
+        position: absolute;
+        left: 0px;
+        bottom: 55px;
+        padding: 5px;
+        width: 300px;
+        text-align: justify;
+    }
+}

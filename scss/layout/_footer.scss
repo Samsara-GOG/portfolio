@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color1;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    height: 150px;
+}
+
+.text-align {
+        text-align: center;
+    }
+
+img[class="arrow-up"] {
+    margin-left: 3px;
+    margin-bottom:3px;
+    filter: opacity(0.75) invert(100%) sepia(25%) saturate(7500%) hue-rotate(65deg) brightness(105%) contrast(102%);
+    height: 56px;
+    width: 51px; 
+    position: relative;
+    bottom: 10px;
+    transform: rotate(+180deg);
+
+    position: fixed;
+    right: 25px;
+    bottom: 0;
+    text-align: left;
+    z-index: 2024;
+
+    animation-duration: 1.85s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
+
+@keyframes clignoter {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+}
+
+img[class="arrow-up"]:hover {
+    filter: opacity(1) invert(25%) sepia(85%) saturate(100%) hue-rotate(15deg) brightness(35%) contrast(72%);
+}

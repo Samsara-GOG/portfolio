@@ -1,0 +1,394 @@
+* {
+    margin: 0; padding: 0,
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+// img:hover {
+//     opacity: 0.6;
+// }
+
+.main {
+    margin-top: 100px;
+}
+
+.wrapper {
+    margin: 0 27px;
+}
+
+.text-align {
+    &--center {
+        text-align: center;
+    }
+    &--left {
+        text-align: left;
+    }
+    &--right {
+        text-align: right;
+    }
+}
+
+.white {
+    color: white;
+}
+
+.padding {
+    &__top {
+        padding-top: 20px;
+    }
+    &__bottom {
+        &--50 {
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.marg {
+    &__both {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    &__top {
+        &--68 {
+            margin-top: 68px;
+        }
+        &--55 {
+            margin-top: 55px;
+        }
+        &--10 {
+            margin-top: 10px;
+        }
+    }
+    &__left {
+        &--15 {
+            margin-left: 15px;
+        }
+        &--23 {
+            margin-left: 23px;
+        }
+        &--45 {
+            margin-left: 45px;
+        }
+        &--51 {
+            margin-left: 51px;
+        }
+    }
+    &__bottom {
+        &--13 {
+            margin-bottom: 13px;
+        }
+        &--23 {
+            margin-bottom: -22px;
+        }
+        &--68 {
+            margin-bottom: 68px;
+        }
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .aside {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
+    .article__title--h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .article__title--h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .aside {
+        order: 2;
+        max-width: 320px;
+    } 
+    .limit-h {
+        max-height: 750px;
+    }
+    .objectif {
+        order: 1;    
+    } 
+}
+
+@media screen and (max-width: 991px) {
+    .hide1 {
+        display: none;
+    }
+    .hide2 {
+        display: contents;
+    }
+
+    .block__compet {
+        &--left {
+            position: relative;
+        }
+        &--right {
+            position: relative;
+        }
+    }
+
+    .cube__window {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .menu9 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form {
+        &__input {
+            max-width: 650px;
+        }
+    }
+
+    .liserai {
+        position: relative;
+        left: 465px;
+    }
+
+    .block__compet {
+        border: 1px solid $color4;
+        padding: 0 20px;
+        position: relative;
+        &--left {
+            position: relative;
+            text-align: right;
+        }
+        &--right {
+            position: relative;
+            text-align: left;
+        }
+    }
+
+    .position {
+        &1 {
+            bottom: 4px;
+            right: 483px;
+            max-width: 40%;
+        }
+        &2 {
+            top: 45px;
+            left: 65px;
+            max-width: 40%;
+        }
+        &3 {
+            top: 27px;
+            right: 444px;
+            max-width: 40%;
+        }
+        &4 {
+            top: 22px;
+            left: 49px;
+            max-width: 40%;
+        }
+        &5 {
+            top: 13px;
+            right: 417px;
+            max-width: 40%;
+        }
+        &6 {
+            bottom: 43px;
+            left: 135px;
+            max-width: 35%;
+        }
+        &7 {
+            bottom: 40px;
+            right: 490px;
+            max-width: 40%;
+        }
+    }
+
+    .block__relative {
+        display: inline-block;
+        background-color: white;
+        padding: 5px;
+        position: relative;
+        &--1 {
+            top: 100px;
+            right: 134px;
+        }
+        &--2 {
+            top: 83px;
+            right: 106px;
+        }
+        &--3 {
+            top: 65px;
+            right: 74px;
+        }
+        &--4 {
+            top: 60px;
+            right: 74px;
+        }
+        &--5 {
+            top: 52px;
+            right: 47px;
+        }
+        &--6 {
+            top: 60px;
+            right: 138px;
+        }
+        &--7 {
+            bottom: 2px;
+            right: 120px;
+        }
+    }
+
+    .block__date {
+        display: inline-block;
+        &--left {
+            position: absolute;
+            right: 250px;
+        }
+        &--right {
+            position: absolute;
+            left: 250px;
+        }
+    }
+
+    .cube {
+        &__window {
+            display: inline-block;
+            background: white;
+            border-radius: 1px;
+            top: 9px;
+            &--1, &--3, &--5, &--7 {
+                border-bottom: 1px solid $color4;
+                border-right: 1px solid $color4;
+                left: 28px;
+            }
+            &--2, &--4, &--6 {
+                border-top: 1px solid $color4;
+                border-left: 1px solid $color4;
+                right: 28px;
+            }
+        }
+        &__educ {
+            &--begin {
+                bottom: 20px;
+                right: 28px;
+            }
+            &__educ--end {
+                top: 23px;
+                right: 28px;
+            }
+        }
+    }
+
+    .hide1 {
+        display: contents;
+    }
+    .hide2 {
+        display: none;
+    }
+
+    // .aside__project--1 {
+    //     margin-top: 0;
+    // }
+}
+
+@media screen and (min-width: 1200px) {
+    .liserai {
+        position: relative;
+        left: 556px;
+    }
+
+    .position {
+        &1 {
+            bottom: 4px;
+            right: 607px;
+            max-width: 45%;
+        }
+        &2 {
+            top: 45px;
+            left: 65px;
+            max-width: 45%;
+        }
+        &3 {
+            top: 27px;
+            right: 517px;
+            max-width: 429px;
+        }
+        &4 {
+            top: 22px;
+            left: 49px;
+            max-width: 460px;
+        }
+        &5 {
+            top: 13px;
+            right: 490px;
+            max-width: 429px;
+        }
+        &6 {
+            bottom: 43px;
+            left: 135px;
+            max-width: 38%;
+        }
+        &7 {
+            bottom: 40px;
+            right: 593px;
+            max-width: 43%;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .liserai {
+        position: static;
+        margin-left: 556px;
+    }
+
+    .position {
+        &1 {
+            top: 62px;
+            right: 617px;
+            max-width: 488px;
+            margin-top: 0!important;
+        }
+        &2 {
+            top: 45px;
+            left: 65px;
+            max-width: 494px;
+        }
+        &3 {
+            top: 27px;
+            right: 517px;
+            max-width: 429px;
+        }
+        &4 {
+            top: 22px;
+            left: 49px;
+            max-width: 460px;
+        }
+        &5 {
+            top: 13px;
+            right: 490px;
+            max-width: 429px;
+        }
+        &6 {
+            bottom: 43px;
+            left: 135px;
+            max-width: 420px;
+        }
+        &7 {
+            bottom: 40px;
+            right: 554px;
+            max-width: 420px;
+        }
+    }
+}
