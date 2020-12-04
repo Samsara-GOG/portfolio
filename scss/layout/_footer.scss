@@ -17,6 +17,7 @@
     }
 
 img[class="arrow-up"] {
+    display: none;
     margin-left: 3px;
     margin-bottom:3px;
     filter: opacity(0.75) invert(100%) sepia(25%) saturate(7500%) hue-rotate(65deg) brightness(105%) contrast(102%);
@@ -32,7 +33,7 @@ img[class="arrow-up"] {
     text-align: left;
     z-index: 2024;
 
-    animation-duration: 1.85s;
+    animation-duration: 6.85s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
