@@ -33,17 +33,18 @@ img[class="arrow-up"] {
     text-align: left;
     z-index: 2024;
 
-    animation-duration: 6.85s;
-    animation-name: clignoter;
-    animation-iteration-count: infinite;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
+    // animation-duration: 6.85s;
+    // animation-name: clignoter;
+    // animation-iteration-count: infinite;
+    // transition: cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
 
-@keyframes clignoter {
-    0%   { opacity:0; }
-    100% { opacity:1; }
-}
+// @keyframes clignoter {
+//     0%   { opacity:0; }
+//     100% { opacity:1; }
+// }
 
 img[class="arrow-up"]:hover {
-    filter: opacity(1) invert(25%) sepia(85%) saturate(100%) hue-rotate(15deg) brightness(35%) contrast(72%);
+    display: none;
+    filter: opacity(1) invert(25%) sepia(85%) saturate(100%) hue-rotate(45deg) brightness(25%) contrast(82%);
 }
