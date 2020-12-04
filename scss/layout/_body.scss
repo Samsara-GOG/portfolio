@@ -89,6 +89,16 @@ body {
     }
 }
 
+@media screen and (min-width: 360px) {
+    img[class="arrow-up"] {
+        text-align: left;
+        position: fixed;
+        z-index: 2025;
+        right: 0;
+        bottom: 0;
+    }
+}
+
 @media screen and (min-width: 400px) {
     .aside {
         max-width: 75%;
@@ -303,6 +313,12 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+
+    img[class="arrow-up"] {
+        right: 25px;
+        bottom: 0;
+    }
+
     .liserai {
         position: relative;
         left: 556px;
