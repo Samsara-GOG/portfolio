@@ -1,5 +1,3 @@
-
-
 ScrollToTop = function() {
     let s = $(window).scrollTop();
     if (s > 250) {
@@ -19,7 +17,6 @@ ScrollToTop = function() {
       $('html, body').stop();
     });
   }
-   
    
   $(window).scroll(function() {
     ScrollToTop();
