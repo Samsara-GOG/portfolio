@@ -6,7 +6,7 @@ Date de finalisation du TP : 3 décembre 2020.
 
 Codé d'après ma propre maquette réalisée sur *Figma*.
 
-Codage du **CV portfolio** avec **HTML/SASS/Node/Javascript**. 
+Codage du **CV portfolio** avec **HTML/SASS/Node/Bootstrap/Javascript**. 
 
 * Cahier des charges : 
   * Responsive ET Mobile First
