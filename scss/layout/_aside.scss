@@ -49,10 +49,14 @@
     &__link {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 19px;
         text-decoration-line: underline;
         color: $color2;
+        &--project {
+            font-size: 14px;
+            line-height: 17px;
+        }
     }
 }
 
