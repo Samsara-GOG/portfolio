@@ -6,7 +6,8 @@ Date de finalisation du TP : 3 décembre 2020.
 
 Codé d'après ma propre maquette réalisée sur *Figma*.
 
-Codage du **CV portfolio** avec **HTML/SASS/Node/Bootstrap/Javascript**. 
+Codage du **CV portfolio** avec **HTML/SASS/Node/Bootstrap/Javascript**.   
+Code source sur **github** et connecté à **netlify** pour le déploiement, avec renvoi de nom de domaine personnel vers netlify pour la gestion (temporaire) du formulaire (https://www.samsara.live => https://samsara-portfolio.netlify.app/)
 
 * Cahier des charges : 
   * Responsive ET Mobile First
@@ -16,4 +17,4 @@ Codage du **CV portfolio** avec **HTML/SASS/Node/Bootstrap/Javascript**.
   * Développement avec script npm fonctionnel pour dev et prod
   * Compatible W3C (validation HTML/CSS via w3.org)
   * Respect des critères SEO : inscription Google Search Console; titres avec les bons mots clés; meta-description attractive; respect de la hiérarchie des titres; un seul titre H1
-  * Projet de site déposé sur git
+  * Projet de site déposé sur git et déployé sur hébergeur/netlify
