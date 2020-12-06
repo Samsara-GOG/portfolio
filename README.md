@@ -4,10 +4,10 @@ Développeur : **Samsara**, alias *Jérôme Demuynck*
 
 Date de finalisation du TP : 3 décembre 2020.
 
-Codé d'après ma propre maquette réalisée sur *Figma*.
+Codé d'après ma propre maquette réalisée sur *[Figma](https://www.figma.com/file/B9Z2tWkTF0GyqGcqZewzOJ/Maquette-PopSchool-TP?node-id=0%3A1 " ")*.
 
 Codage du **CV portfolio** avec **HTML / SASS / Bootstrap / Javascript / Node.js** sous **Visual Studio Code**.   
-Code source sur **github** et connecté à **netlify** pour le déploiement, avec renvoi de nom de domaine réservé personnel vers netlify pour la gestion (temporaire) du formulaire (https://www.samsara.live => https://samsara-portfolio.netlify.app/)
+Code source sur **github** et connecté à **netlify** pour le déploiement, avec renvoi de nom de domaine réservé personnel vers [netlify](https://www.netlify.com/ "the fastest way to build the fastest sites") pour la gestion (temporaire) du formulaire (https://www.samsara.live => https://samsara-portfolio.netlify.app/)
 
 * Cahier des charges : 
   * Responsive ET Mobile First
