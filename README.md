@@ -1,4 +1,4 @@
-# TP - CV Portfolio Intégration à Pop School
+# TP - CV Portfolio
 
 Développeur : **Samsara**, alias *Jérôme Demuynck*  
 
