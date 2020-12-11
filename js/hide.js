@@ -1,6 +1,6 @@
 ScrollToTop = function() {
     let s = $(window).scrollTop();
-    if (s > 250) {
+    if (s > 1000) {
       $('#arrow-up').fadeIn();
     } else {
       $('arrow-up').fadeOut();

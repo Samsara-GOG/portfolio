@@ -26,7 +26,6 @@
             top: 23px;
         }
     }
-
 }
 
 .trim-sides {
@@ -53,7 +52,7 @@
 }
 
 .trim-sides--white {
-    &::before {
+    &::before, &::after {
         position: relative;
         content: "";
         display: inline-block;
@@ -61,23 +60,13 @@
         width: 18%;
         vertical-align: center;
         margin-right: 10px;
-        border-top: 1px solid white;
-    }
-    &::after {
-        position: relative;
-        content: "";
-        display: inline-block;
-        height: 5px;
-        width: 18%;
-        vertical-align: center;
-        margin-left: 10px;
         border-top: 1px solid white;
     }
 }
 
 .trim-sides--small {
     margin-right: 22px;
-    &::before {
+    &::before, &::after {
         position: relative;
         content: "";
         display: inline-block;
@@ -85,16 +74,6 @@
         width: 12%;
         vertical-align: center;
         margin-right: 10px;
-        border-top: 1px solid $color1;
-    }
-    &::after {
-        position: relative;
-        content: "";
-        display: inline-block;
-        height: 5px;
-        width: 12%;
-        vertical-align: center;
-        margin-left: 10px;
         border-top: 1px solid $color1;
     }
 }
