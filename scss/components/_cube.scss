@@ -16,14 +16,17 @@
             margin-right: 8px;
         }
     }
-    &__educ--begin {
-        bottom: 20px;
+
+    &__educ {
         right: 28px;
+        &--begin {
+            bottom: 20px;
+        }
+        &--end {
+            top: 23px;
+        }
     }
-    &__educ--end {
-        top: 23px;
-        right: 28px;
-    }
+
 }
 
 .trim-sides {
