@@ -29,7 +29,7 @@
 }
 
 .trim-sides {
-    &::before {
+    &::before, &::after {
         position: relative;
         content: "";
         display: inline-block;
@@ -37,16 +37,6 @@
         width: 18%;
         vertical-align: center;
         margin-right: 10px;
-        border-top: 1px solid $color1;
-    }
-    &::after {
-        position: relative;
-        content: "";
-        display: inline-block;
-        height: 5px;
-        width: 18%;
-        vertical-align: center;
-        margin-left: 10px;
         border-top: 1px solid $color1;
     }
 }
