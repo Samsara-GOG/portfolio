@@ -2,8 +2,6 @@
     display: inline-block;
     max-width: 50px;
     padding: 3px 3px;
-
-
     &__bg {
         display: inline-block;
         background-color: white;
@@ -11,10 +9,7 @@
         border-radius: 0px 0px 10px 10px;
         padding: 5px 5px;
     }
-    &__html {
-        max-width: 52px;
-    }
-    &__css {
+    &__html, &__css {
         max-width: 52px;
     }
     &__csharp {
@@ -40,6 +35,9 @@
     }
     &__nodejs {
         max-width: 84px;
+    }
+    &__nestjs {
+        max-width: 64px;
     }
     &__php {
         max-width: 65px;
