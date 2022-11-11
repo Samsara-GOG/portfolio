@@ -210,7 +210,8 @@
           </div>
         </article>
 
-        <article class="article article--bg text-align--center">
+        
+        {# <article class="article article--bg text-align--center">
           <div class="container">
             <div class="wrapper">
               <h2 class="article__title--h2 article__title--h2--competences">Compétences</h2>
@@ -253,8 +254,6 @@ sécurité, création A à Z de thème enfant et de contenus</span></a>
                 <a class="bubbleinfo" href="#"><img class="lang lang__mariadb" src="img/lang_mongodb.svg" alt="mongodb"><span class="forward"><strong>MongoDB</strong> : SGBD basé sur NoSQL utilisé en cours d'apprentissage à Pop School avec Nest.js pour la création et l'utilisation d'API REST.</span></a>
               </div>
 
-
-
               <p class="block__description--compet text-align--center"><a href="https://www.codecademy.com/profiles/digital2768975034" class="aside__link aside__link--project" target="_blank">Mon profil sur Codecademy</a><br></p>
               <p class="block__description--compet text-align--left">NB : <em>Étant passionné par la lecture, je me suis procuré beaucoup de livres récents sur tous ces langages du Web et d'informatique, et donc je peux approfondir mes connaissances quand nécessaire sur le sujet</em></p>
               <div class="text-align--left">
@@ -269,7 +268,7 @@ sécurité, création A à Z de thème enfant et de contenus</span></a>
               </div>
             </div>
           </div>
-        </article>
+        </article>  #}
       
         <article class="article text-align--center">
           <div class="container">
@@ -277,22 +276,22 @@ sécurité, création A à Z de thème enfant et de contenus</span></a>
               <div class="trim-sides--small marg__bottom--68">
                 <span class="cube cube__double cube__double--space"></span><span class="cube cube__double"></span>
               </div>
-              
-              {# Test component bootstrap accordion/collapse #}
+
+              <!-- accordeon bootstrap-->
               <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        Collapsible Group Item #1
+                        A venir #1
                       </button>
                     </h2>
                   </div>
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                      Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the
+                     contenu #1
                       <code>.show</code> class.
                     </div>
                   </div>
@@ -302,26 +301,43 @@ sécurité, création A à Z de thème enfant et de contenus</span></a>
                     <h2 class="mb-0">
                       <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
+                        A venir #2
                       </button>
                     </h2>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                      Some placeholder content for the second accordion panel. This panel is hidden by default.
+                      contenu #2
                     </div>
                   </div>
                 </div>
+
                 <div class="card">
                   <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                       <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                         data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Projets Front-End PopSchool Lens (2020-Janv 2021)
+                        A venir #3
                       </button>
                     </h2>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      contenu #3
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Projets Front-End Web PopSchool Lens (Août 2020-Janv 2021)
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                     <div class="card-body">
 
                       <div class="aside__project--1 text-align--center col-12 marg__both marg__top--10">
