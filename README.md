@@ -4,6 +4,12 @@ Développeur : **Samsara**, alias *Jérôme Demuynck*
 
 Date de finalisation du TP : 3 décembre 2020.
 
+Rendu :
+<p align="center">
+    <img src="https://samsara-portfolio.netlify.app/img/portfolio/siteportfolio.jpg" alt="Portfolio de Jerome Demuynck" height="250">
+</p>
+
+
 Codé d'après ma propre maquette réalisée sur *[Figma](https://www.figma.com/file/B9Z2tWkTF0GyqGcqZewzOJ/Maquette-PopSchool-TP?node-id=0%3A1 " ")*.
 
 Codage du **CV portfolio** avec **HTML / SASS / Bootstrap / Javascript / Node.js** sous **Visual Studio Code**.   
