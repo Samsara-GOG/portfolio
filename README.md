@@ -6,7 +6,7 @@ Date de finalisation du TP : 3 décembre 2020.
 
 Rendu :
 <p align="center">
-    <img src="https://samsara-portfolio.netlify.app/img/portfolio/siteportfolio.jpg" alt="Portfolio de Jerome Demuynck" height="250">
+    <img src="https://samsara-portfolio.netlify.app/img/portfolio/siteportfolio.jpg" alt="Portfolio de Jerome Demuynck" height="200">
 </p>
 
 
